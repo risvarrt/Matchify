@@ -1,0 +1,279 @@
+Project Name,Package Name,Type Name,Method Name,LOC,CC,PC,Line no,IsTest,Main prod class tested,Production classes tested
+matchify,com.matchify.utils,FileUtilsTest,setUp,3,1,0,20,0,,
+matchify,com.matchify.utils,FileUtilsTest,testGenerateTempFilePath,12,1,0,26,1,com.matchify.utils.FileUtils,com.matchify.utils.FileUtils
+matchify,com.matchify.utils,FileUtilsTest,testIsImageFile,4,1,0,39,1,com.matchify.utils.FileUtils,com.matchify.utils.FileUtils
+matchify,com.matchify.utils,FileUtilsTest,testGetFileExtention,4,1,0,46,1,com.matchify.utils.FileUtils,com.matchify.utils.FileUtils
+matchify,com.matchify.utils,FileUtilsTest,testGenerateUniqueFileNameForImage,9,1,0,52,1,com.matchify.utils.FileUtils,com.matchify.utils.FileUtils
+matchify,com.matchify.utils,FileUtilsTest,testGenerateImageURL,8,1,0,65,1,com.matchify.utils.FileUtils,com.matchify.utils.FileUtils
+matchify,com.matchify.utils,TestUtil,generateUniqueEmail,5,1,0,7,0,,
+matchify,com.matchify.utils,FileUtils,generateTempFilePath,11,1,1,12,0,,
+matchify,com.matchify.utils,FileUtils,isImageFile,8,2,1,24,0,,
+matchify,com.matchify.utils,FileUtils,getFileExtention,11,1,1,33,0,,
+matchify,com.matchify.utils,FileUtils,generateUniqueFileNameForImage,5,1,3,45,0,,
+matchify,com.matchify.utils,FileUtils,generateImageURL,3,1,3,64,0,,
+matchify,com.matchify.controller,AuthControllerIntegrationTest,setUp,3,1,0,36,0,,
+matchify,com.matchify.controller,AuthControllerIntegrationTest,truncateTable,4,1,1,40,0,,
+matchify,com.matchify.controller,AuthControllerIntegrationTest,testUserRegister,5,1,0,45,1,,
+matchify,com.matchify.controller,AuthControllerIntegrationTest,createUser,10,1,0,62,0,,
+matchify,com.matchify.controller,AuthControllerIntegrationTest,testLogin,9,1,0,73,1,,
+matchify,com.matchify.controller,AuthControllerIntegrationTest,asJsonString,8,1,1,100,0,,
+matchify,com.matchify.controller,AuthControllerTest,setUp,3,1,0,29,0,,
+matchify,com.matchify.controller,AuthControllerTest,testLoginAndGetToken,10,1,0,34,1,com.matchify.controller.AuthController,com.matchify.controller.AuthController; com.matchify.service.AuthService
+matchify,com.matchify.controller,AuthControllerTest,testAddNewUser,10,1,0,52,1,com.matchify.controller.AuthController,com.matchify.service.AuthService; com.matchify.controller.AuthController
+matchify,com.matchify.controller,EventControllerTest,testCreateEvent,8,1,0,40,1,com.matchify.controller.EventController,com.matchify.service.EventService; com.matchify.controller.EventController
+matchify,com.matchify.controller,EventControllerTest,testJoinEvent,8,1,0,58,1,com.matchify.controller.EventController,com.matchify.controller.EventController; com.matchify.service.EventService
+matchify,com.matchify.controller,EventControllerTest,testMatchedEvents,9,1,0,73,1,com.matchify.controller.EventController,com.matchify.service.EventService; com.matchify.controller.EventController
+matchify,com.matchify.controller,EventControllerTest,testMyEvents,8,1,0,94,1,com.matchify.controller.EventController,com.matchify.controller.EventController; com.matchify.service.EventService
+matchify,com.matchify.controller,EventControllerTest,testLeaveEvent,8,1,0,112,1,com.matchify.controller.EventController,com.matchify.service.EventService; com.matchify.controller.EventController
+matchify,com.matchify.controller,EventControllerTest,testAttendeesList,11,1,0,127,1,com.matchify.controller.EventController,com.matchify.service.EventService; com.matchify.controller.EventController
+matchify,com.matchify.controller,MatchControllerIntegrationTest,setUp,4,1,0,33,0,,
+matchify,com.matchify.controller,MatchControllerIntegrationTest,truncateTable,4,1,1,39,0,,
+matchify,com.matchify.controller,MatchControllerIntegrationTest,setUpUser,8,2,0,44,0,,
+matchify,com.matchify.controller,MatchControllerIntegrationTest,findMatches,8,1,0,61,1,,
+matchify,com.matchify.controller,MatchControllerIntegrationTest,createUser,10,1,0,97,0,,
+matchify,com.matchify.controller,MatchControllerIntegrationTest,registerUserAndGetToken,6,1,1,108,0,,
+matchify,com.matchify.controller,MatchControllerIntegrationTest,getFillInterestRequest,12,1,0,124,0,,
+matchify,com.matchify.controller,MatchControllerIntegrationTest,asJsonString,3,1,1,144,0,,
+matchify,com.matchify.controller,EventControllerIntegrationTest,setUp,4,1,0,43,0,,
+matchify,com.matchify.controller,EventControllerIntegrationTest,truncateTable,4,1,1,49,0,,
+matchify,com.matchify.controller,EventControllerIntegrationTest,userCreatesAnEventAfterRegistration,6,1,0,54,1,,
+matchify,com.matchify.controller,EventControllerIntegrationTest,userShouldJoinToEvent,14,1,0,72,1,,
+matchify,com.matchify.controller,EventControllerIntegrationTest,userShouldBeAbleToLeaveAJoinedEvent,15,1,0,114,1,,
+matchify,com.matchify.controller,EventControllerIntegrationTest,createEventUsingToken,3,1,2,166,0,,
+matchify,com.matchify.controller,EventControllerIntegrationTest,registerUserAndGetToken,6,1,1,197,0,,
+matchify,com.matchify.controller,EventControllerIntegrationTest,createUser,10,1,0,214,0,,
+matchify,com.matchify.controller,EventControllerIntegrationTest,createTestEvent,14,1,0,225,0,,
+matchify,com.matchify.controller,EventControllerIntegrationTest,asJsonString,3,1,1,241,0,,
+matchify,com.matchify.controller,InterestControllerIntegrationTest,setUp,4,1,0,41,0,,
+matchify,com.matchify.controller,InterestControllerIntegrationTest,truncateTable,4,1,1,47,0,,
+matchify,com.matchify.controller,InterestControllerIntegrationTest,userGetsInterests,5,1,0,52,1,,
+matchify,com.matchify.controller,InterestControllerIntegrationTest,userAddsInterests,6,1,0,79,1,,
+matchify,com.matchify.controller,InterestControllerIntegrationTest,getFillInterestRequest,12,1,0,97,0,,
+matchify,com.matchify.controller,InterestControllerIntegrationTest,registerUserAndGetToken,6,1,1,118,0,,
+matchify,com.matchify.controller,InterestControllerIntegrationTest,createUser,10,1,0,135,0,,
+matchify,com.matchify.controller,InterestControllerIntegrationTest,asJsonString,3,1,1,147,0,,
+matchify,com.matchify.controller,ChatControllerTest,setUp,3,1,0,29,0,,
+matchify,com.matchify.controller,ChatControllerTest,testProcessMessage,8,1,0,34,1,com.matchify.controller.ChatController,com.matchify.controller.ChatController; com.matchify.service.ChatMessageService
+matchify,com.matchify.controller,ChatControllerTest,testFindChatMessages,10,1,0,53,1,com.matchify.controller.ChatController,com.matchify.service.ChatMessageService; com.matchify.controller.ChatController
+matchify,com.matchify.controller,InterestController,fetchAllInterests,3,1,0,20,0,com.matchify.service.InterestService,com.matchify.service.InterestService
+matchify,com.matchify.controller,InterestController,fillMyInterest,4,1,1,25,0,com.matchify.service.InterestService,com.matchify.service.InterestService
+matchify,com.matchify.controller,EventController,createEvent,3,1,3,33,0,com.matchify.service.EventService,com.matchify.service.EventService
+matchify,com.matchify.controller,EventController,joinEvent,3,1,1,42,0,com.matchify.service.EventService,com.matchify.service.EventService
+matchify,com.matchify.controller,EventController,getMatchedEvents,5,1,2,48,0,com.matchify.service.EventService,com.matchify.service.EventService
+matchify,com.matchify.controller,EventController,getMyEvents,3,1,1,64,0,com.matchify.service.EventService,com.matchify.service.EventService
+matchify,com.matchify.controller,EventController,leaveEvent,3,1,1,75,0,com.matchify.service.EventService,com.matchify.service.EventService
+matchify,com.matchify.controller,EventController,attendeesList,3,1,1,81,0,com.matchify.service.EventService,com.matchify.service.EventService
+matchify,com.matchify.controller,AuthController,loginAndGetToken,3,1,1,22,0,com.matchify.service.AuthService,com.matchify.service.AuthService
+matchify,com.matchify.controller,AuthController,addNewUser,3,1,1,29,0,com.matchify.service.AuthService,com.matchify.service.AuthService
+matchify,com.matchify.controller,MatchController,findMatches,3,1,1,22,0,com.matchify.service.MatchService,com.matchify.service.MatchService
+matchify,com.matchify.controller,ChatController,processMessage,4,1,1,25,0,com.matchify.service.ChatMessageService,com.matchify.service.ChatMessageService
+matchify,com.matchify.controller,ChatController,findChatMessages,3,1,2,48,0,com.matchify.service.ChatMessageService,com.matchify.service.ChatMessageService
+matchify,com.matchify.controller,UserController,connect,3,1,1,29,0,com.matchify.service.UserService,com.matchify.service.UserService
+matchify,com.matchify.controller,UserController,disconnect,3,1,1,42,0,com.matchify.service.UserService,com.matchify.service.UserService
+matchify,com.matchify.controller,UserController,findConnectedUsers,3,1,0,55,0,com.matchify.service.UserService,com.matchify.service.UserService
+matchify,com.matchify.controller,UserController,getProfileDetails,3,1,0,64,0,com.matchify.service.UserService,com.matchify.service.UserService
+matchify,com.matchify.controller,UserController,getStatusForUsers,3,1,0,69,0,com.matchify.service.UserService,com.matchify.service.UserService
+matchify,com.matchify.service.implementation,UserServiceImplTest,setUp,4,1,0,50,0,,
+matchify,com.matchify.service.implementation,UserServiceImplTest,tearDown,3,1,0,56,0,,
+matchify,com.matchify.service.implementation,UserServiceImplTest,connect_userExists,12,1,0,62,1,com.matchify.service.implementation.UserServiceImpl,com.matchify.service.implementation.UserServiceImpl; com.matchify.repository.UserRepository
+matchify,com.matchify.service.implementation,UserServiceImplTest,connect_userNotFound,8,1,0,83,1,com.matchify.repository.UserRepository,com.matchify.repository.UserRepository
+matchify,com.matchify.service.implementation,UserServiceImplTest,disconnect_userExists,12,1,0,97,1,com.matchify.service.implementation.UserServiceImpl,com.matchify.service.implementation.UserServiceImpl; com.matchify.repository.UserRepository
+matchify,com.matchify.service.implementation,UserServiceImplTest,disconnect_userNotFound,8,1,0,118,1,com.matchify.repository.UserRepository,com.matchify.repository.UserRepository
+matchify,com.matchify.service.implementation,UserServiceImplTest,findConnectedUsers,17,1,0,132,1,com.matchify.service.implementation.UserServiceImpl,com.matchify.repository.UserRepository; com.matchify.service.implementation.UserServiceImpl
+matchify,com.matchify.service.implementation,UserServiceImplTest,testGetStatusForUsers,13,1,0,161,1,com.matchify.service.implementation.UserServiceImpl,com.matchify.service.implementation.UserServiceImpl; com.matchify.repository.UserRepository
+matchify,com.matchify.service.implementation,UserServiceImplTest,testGetMessagedUsers,19,1,0,183,1,com.matchify.service.implementation.UserServiceImpl,com.matchify.repository.UserRepository; com.matchify.repository.ChatRoomRepository; com.matchify.service.implementation.UserServiceImpl; com.matchify.service.AuthService
+matchify,com.matchify.service.implementation,UserServiceImplTest,createUserWithId,3,1,4,214,0,,
+matchify,com.matchify.service.implementation,UserServiceImplTest,createConnectedUserResponse,3,1,2,223,0,,
+matchify,com.matchify.service.implementation,UserServiceImplTest,assertResponseMatchesUser,6,1,2,232,0,,
+matchify,com.matchify.service.implementation,UserServiceImplTest,createUserChatStatusResponse,3,1,1,239,0,,
+matchify,com.matchify.service.implementation,UserServiceImplTest,assertUserChatStatusResponseMatchesUser,4,1,2,247,0,,
+matchify,com.matchify.service.implementation,UserServiceImplTest,testFetchLoggedInUserDetails,21,1,0,252,1,com.matchify.service.implementation.UserServiceImpl,com.matchify.service.implementation.UserServiceImpl; com.matchify.repository.EventAttendeesRepository; com.matchify.service.AuthService; com.matchify.repository.UserRepository
+matchify,com.matchify.service.implementation,UserServiceImplTest,createUser,10,1,0,285,0,,
+matchify,com.matchify.service.implementation,UserServiceImplTest,createEvents,9,1,0,296,0,,
+matchify,com.matchify.service.implementation,AuthServiceImplTest,setUp,3,1,0,48,0,,
+matchify,com.matchify.service.implementation,AuthServiceImplTest,tearDown,4,1,0,53,0,,
+matchify,com.matchify.service.implementation,AuthServiceImplTest,testAddExistingUser,6,1,0,59,1,com.matchify.repository.UserRepository,com.matchify.repository.UserRepository
+matchify,com.matchify.service.implementation,AuthServiceImplTest,testAddNewUser,15,1,0,70,1,com.matchify.service.implementation.AuthServiceImpl,com.matchify.repository.UserRepository; com.matchify.service.implementation.AuthServiceImpl; com.matchify.config.JwtProvider
+matchify,com.matchify.service.implementation,AuthServiceImplTest,getUserIdFromToken_UserFound_ReturnsUserId,12,1,0,92,1,com.matchify.service.implementation.AuthServiceImpl,com.matchify.service.implementation.AuthServiceImpl; com.matchify.repository.UserRepository
+matchify,com.matchify.service.implementation,AuthServiceImplTest,testLoginUserWithWrongCredentials,7,1,0,110,1,com.matchify.repository.UserRepository,com.matchify.repository.UserRepository
+matchify,com.matchify.service.implementation,AuthServiceImplTest,testGetUserEmailFromToken,9,1,0,121,1,com.matchify.service.implementation.AuthServiceImpl,com.matchify.service.implementation.AuthServiceImpl
+matchify,com.matchify.service.implementation,AuthServiceImplTest,testLoginAndGetToken,14,1,0,137,1,com.matchify.service.implementation.AuthServiceImpl,com.matchify.service.implementation.AuthServiceImpl; com.matchify.config.JwtProvider; com.matchify.repository.UserRepository
+matchify,com.matchify.service.implementation,AuthServiceImplTest,createUser,12,1,0,161,0,,
+matchify,com.matchify.service.implementation,MatchServiceImplTest,setUp,3,1,0,52,0,,
+matchify,com.matchify.service.implementation,MatchServiceImplTest,findMatches_UserNotFound_ThrowsException,4,1,0,57,1,com.matchify.service.AuthService,com.matchify.service.AuthService
+matchify,com.matchify.service.implementation,MatchServiceImplTest,findMatchingUsers_ReturnsMatchingUsers,16,1,0,65,1,com.matchify.service.implementation.MatchServiceImpl,com.matchify.service.implementation.MatchServiceImpl
+matchify,com.matchify.service.implementation,MatchServiceImplTest,getMatchedUsersProfile_ReturnsUserProfile,14,1,0,91,1,com.matchify.service.implementation.MatchServiceImpl,com.matchify.service.implementation.MatchServiceImpl
+matchify,com.matchify.service.implementation,MatchServiceImplTest,matchExists_ReturnsTrueIfMatchExists,5,1,0,114,1,com.matchify.service.implementation.MatchServiceImpl,com.matchify.service.implementation.MatchServiceImpl; com.matchify.repository.UserMatchesRepository
+matchify,com.matchify.service.implementation,MatchServiceImplTest,storeMatch_StoresMatchInRepository,8,1,0,126,1,com.matchify.service.implementation.MatchServiceImpl,com.matchify.service.implementation.MatchServiceImpl
+matchify,com.matchify.service.implementation,MatchServiceImplTest,createUserWithId,3,1,3,142,0,,
+matchify,com.matchify.service.implementation,MatchServiceImplTest,createUserInterestWithId,3,1,2,150,0,,
+matchify,com.matchify.service.implementation,ChatRoomServiceImplTest,setUp,4,1,0,22,0,,
+matchify,com.matchify.service.implementation,ChatRoomServiceImplTest,getChatRoomId_existingRoom,10,1,0,28,1,com.matchify.service.implementation.ChatRoomServiceImpl,com.matchify.service.implementation.ChatRoomServiceImpl; com.matchify.repository.ChatRoomRepository
+matchify,com.matchify.service.implementation,ChatRoomServiceImplTest,getChatRoomId_roomNotCreated,9,1,0,50,1,com.matchify.service.implementation.ChatRoomServiceImpl,com.matchify.service.implementation.ChatRoomServiceImpl; com.matchify.repository.ChatRoomRepository
+matchify,com.matchify.service.implementation,ChatRoomServiceImplTest,getChatRoomId_newRoom,11,1,0,67,1,com.matchify.service.implementation.ChatRoomServiceImpl,com.matchify.service.implementation.ChatRoomServiceImpl; com.matchify.repository.ChatRoomRepository
+matchify,com.matchify.service.implementation,ChatRoomServiceImplTest,createChatId,10,1,0,86,1,com.matchify.service.implementation.ChatRoomServiceImpl,com.matchify.service.implementation.ChatRoomServiceImpl
+matchify,com.matchify.service.implementation,EventServiceImplTest,setup,4,1,0,77,0,,
+matchify,com.matchify.service.implementation,EventServiceImplTest,testCreateEventEmptyFileException,7,1,0,83,1,,
+matchify,com.matchify.service.implementation,EventServiceImplTest,testCreateEventImageUploadException,7,1,0,96,1,,
+matchify,com.matchify.service.implementation,EventServiceImplTest,testStoreEvent,17,1,0,109,1,com.matchify.service.implementation.EventServiceImpl,com.matchify.service.implementation.EventServiceImpl; com.matchify.service.AuthService; com.matchify.repository.UserRepository
+matchify,com.matchify.service.implementation,EventServiceImplTest,testStoreEvent_ImageUploadException,13,1,0,136,1,com.matchify.service.AuthService,com.matchify.service.AuthService; com.matchify.repository.UserRepository
+matchify,com.matchify.service.implementation,EventServiceImplTest,testUploadInvalidFile,4,1,0,157,1,,
+matchify,com.matchify.service.implementation,EventServiceImplTest,testUploadFile,9,1,0,168,1,com.matchify.service.implementation.EventServiceImpl,com.matchify.service.implementation.EventServiceImpl
+matchify,com.matchify.service.implementation,EventServiceImplTest,testGetCoordinates_APINotAvailableException,4,1,0,187,1,,
+matchify,com.matchify.service.implementation,EventServiceImplTest,testGetMatchedEvents,25,1,0,194,1,com.matchify.service.implementation.EventServiceImpl,com.matchify.repository.UserRepository; com.matchify.service.implementation.EventServiceImpl; com.matchify.repository.EventRepository; com.matchify.service.AuthService
+matchify,com.matchify.service.implementation,EventServiceImplTest,testGetMyEvents,13,1,0,236,1,com.matchify.service.implementation.EventServiceImpl,com.matchify.repository.EventRepository; com.matchify.service.implementation.EventServiceImpl; com.matchify.service.AuthService; com.matchify.repository.UserRepository
+matchify,com.matchify.service.implementation,EventServiceImplTest,testGetMyEventsUserNotFound,9,1,0,258,1,com.matchify.service.AuthService,com.matchify.service.AuthService; com.matchify.repository.UserRepository
+matchify,com.matchify.service.implementation,EventServiceImplTest,createDummyEvent,19,1,1,273,0,,
+matchify,com.matchify.service.implementation,EventServiceImplTest,createDummyUser,10,1,1,293,0,,
+matchify,com.matchify.service.implementation,EventServiceImplTest,testJoinEvent,6,1,0,304,1,com.matchify.service.implementation.EventServiceImpl,com.matchify.service.implementation.EventServiceImpl; com.matchify.repository.EventAttendeesRepository
+matchify,com.matchify.service.implementation,EventServiceImplTest,testJoinEventAlreadyJoined,6,1,0,313,1,com.matchify.service.implementation.EventServiceImpl,com.matchify.service.implementation.EventServiceImpl; com.matchify.repository.EventAttendeesRepository
+matchify,com.matchify.service.implementation,EventServiceImplTest,testLeaveEvent,6,1,0,322,1,com.matchify.service.implementation.EventServiceImpl,com.matchify.service.implementation.EventServiceImpl
+matchify,com.matchify.service.implementation,EventServiceImplTest,testFindAllEventAttendees,6,1,0,331,1,com.matchify.service.implementation.EventServiceImpl,com.matchify.repository.EventAttendeesRepository; com.matchify.service.implementation.EventServiceImpl
+matchify,com.matchify.service.implementation,ChatMessageServiceImplTest,setUp,4,1,0,29,0,,
+matchify,com.matchify.service.implementation,ChatMessageServiceImplTest,save,9,1,0,35,1,com.matchify.service.implementation.ChatMessageServiceImpl,com.matchify.service.implementation.ChatMessageServiceImpl; com.matchify.service.ChatRoomService
+matchify,com.matchify.service.implementation,ChatMessageServiceImplTest,findChatMessages,11,1,0,52,1,com.matchify.service.implementation.ChatMessageServiceImpl,com.matchify.service.ChatRoomService; com.matchify.service.implementation.ChatMessageServiceImpl; com.matchify.repository.ChatMessageRepository
+matchify,com.matchify.service.implementation,UserInfoUserDetails,UserInfoUserDetails,4,1,1,16,0,,
+matchify,com.matchify.service.implementation,UserInfoUserDetails,getAuthorities,3,1,0,21,0,,
+matchify,com.matchify.service.implementation,UserInfoUserDetails,getPassword,3,1,0,26,0,,
+matchify,com.matchify.service.implementation,UserInfoUserDetails,getUsername,3,1,0,31,0,,
+matchify,com.matchify.service.implementation,UserInfoUserDetails,isAccountNonExpired,3,1,0,36,0,,
+matchify,com.matchify.service.implementation,UserInfoUserDetails,isAccountNonLocked,3,1,0,41,0,,
+matchify,com.matchify.service.implementation,UserInfoUserDetails,isCredentialsNonExpired,3,1,0,46,0,,
+matchify,com.matchify.service.implementation,UserInfoUserDetails,isEnabled,3,1,0,51,0,,
+matchify,com.matchify.service.implementation,InterestServiceImpl,InterestServiceImpl,2,1,4,40,0,,
+matchify,com.matchify.service.implementation,InterestServiceImpl,insertInterest,23,5,1,46,0,com.matchify.service.implementation.InterestServiceImpl,com.matchify.service.implementation.InterestServiceImpl; com.matchify.service.AuthService
+matchify,com.matchify.service.implementation,InterestServiceImpl,getInterestCategoriesIds,3,1,0,79,0,,
+matchify,com.matchify.service.implementation,InterestServiceImpl,getInterestGroupIds,6,1,1,85,0,com.matchify.repository.InterestRepository,com.matchify.repository.InterestRepository; com.matchify.service.implementation.InterestServiceImpl
+matchify,com.matchify.service.implementation,InterestServiceImpl,extractInterestIds,3,1,1,99,0,,
+matchify,com.matchify.service.implementation,InterestServiceImpl,filterDuplicateIds,3,1,1,111,0,,
+matchify,com.matchify.service.implementation,InterestServiceImpl,getInterestCategoriesByGroupId,3,1,1,123,0,com.matchify.repository.InterestRepository,com.matchify.repository.InterestRepository
+matchify,com.matchify.service.implementation,InterestServiceImpl,groupItemsByGroupId,4,1,1,127,0,com.matchify.service.implementation.InterestServiceImpl,com.matchify.service.implementation.InterestServiceImpl
+matchify,com.matchify.service.implementation,InterestServiceImpl,groupInterestCategoriesByGroupId,3,1,1,141,0,,
+matchify,com.matchify.service.implementation,InterestServiceImpl,mapGroupedItemsToResponses,14,2,1,152,0,com.matchify.service.implementation.InterestServiceImpl,com.matchify.service.implementation.InterestServiceImpl
+matchify,com.matchify.service.implementation,InterestServiceImpl,mapItemsToCategoryResponses,3,1,1,177,0,,
+matchify,com.matchify.service.implementation,InterestServiceImpl,mapToInterestCategoryResponse,3,1,1,189,0,,
+matchify,com.matchify.service.implementation,InterestServiceImpl,fetchInterest,4,1,0,203,0,com.matchify.service.implementation.InterestServiceImpl,com.matchify.service.implementation.InterestServiceImpl
+matchify,com.matchify.service.implementation,MatchServiceImpl,findMatches,12,4,0,40,0,com.matchify.service.implementation.MatchServiceImpl,com.matchify.service.implementation.MatchServiceImpl; com.matchify.repository.UserInterestRepository; com.matchify.service.AuthService
+matchify,com.matchify.service.implementation,MatchServiceImpl,findMatchingUsers,6,1,2,66,0,com.matchify.service.implementation.MatchServiceImpl,com.matchify.service.implementation.MatchServiceImpl
+matchify,com.matchify.service.implementation,MatchServiceImpl,calculateMatchingInterests,3,1,2,86,0,,
+matchify,com.matchify.service.implementation,MatchServiceImpl,getTopMatchingUsers,3,1,1,93,0,,
+matchify,com.matchify.service.implementation,MatchServiceImpl,getMatchedUsersProfile,14,2,1,99,0,,
+matchify,com.matchify.service.implementation,MatchServiceImpl,matchExists,3,1,2,122,0,com.matchify.repository.UserMatchesRepository,com.matchify.repository.UserMatchesRepository
+matchify,com.matchify.service.implementation,MatchServiceImpl,storeMatch,6,1,2,128,0,,
+matchify,com.matchify.service.implementation,ChatRoomServiceImpl,getChatRoomId,10,2,3,16,0,com.matchify.repository.ChatRoomRepository,com.matchify.repository.ChatRoomRepository; com.matchify.service.implementation.ChatRoomServiceImpl
+matchify,com.matchify.service.implementation,ChatRoomServiceImpl,createChatId,8,1,2,39,0,,
+matchify,com.matchify.service.implementation,EventServiceImpl,createEvent,7,1,2,75,0,com.matchify.service.implementation.EventServiceImpl,com.matchify.service.implementation.EventServiceImpl
+matchify,com.matchify.service.implementation,EventServiceImpl,storeEvent,9,1,3,85,0,com.matchify.repository.UserRepository,com.matchify.repository.UserRepository; com.matchify.service.AuthService
+matchify,com.matchify.service.implementation,EventServiceImpl,uploadFile,10,2,2,97,0,com.matchify.utils.FileUtils,com.matchify.utils.FileUtils
+matchify,com.matchify.service.implementation,EventServiceImpl,getCoordinates,23,2,1,114,0,com.matchify.config.GeocodingConfig,com.matchify.config.GeocodingConfig
+matchify,com.matchify.service.implementation,EventServiceImpl,getMatchedEvents,8,1,1,136,0,com.matchify.service.implementation.EventServiceImpl,com.matchify.service.implementation.EventServiceImpl
+matchify,com.matchify.service.implementation,EventServiceImpl,getLoggedInUser,4,1,0,153,0,com.matchify.service.AuthService,com.matchify.service.AuthService; com.matchify.repository.UserRepository
+matchify,com.matchify.service.implementation,EventServiceImpl,getUsers,7,2,1,163,0,com.matchify.repository.UserRepository,com.matchify.repository.UserRepository
+matchify,com.matchify.service.implementation,EventServiceImpl,getCombinedEvents,9,2,3,178,0,com.matchify.repository.EventRepository,com.matchify.repository.EventRepository; com.matchify.service.implementation.EventServiceImpl
+matchify,com.matchify.service.implementation,EventServiceImpl,removeDuplicates,4,1,1,196,0,,
+matchify,com.matchify.service.implementation,EventServiceImpl,getEventsToReturn,4,1,1,207,0,,
+matchify,com.matchify.service.implementation,EventServiceImpl,mapEventsToGetMatchedEventsResponse,8,1,1,218,0,,
+matchify,com.matchify.service.implementation,EventServiceImpl,getMyEvents,5,1,0,234,0,com.matchify.service.implementation.EventServiceImpl,com.matchify.service.implementation.EventServiceImpl; com.matchify.repository.EventRepository
+matchify,com.matchify.service.implementation,EventServiceImpl,getUserFromToken,8,2,0,246,0,com.matchify.service.AuthService,com.matchify.service.AuthService; com.matchify.repository.UserRepository
+matchify,com.matchify.service.implementation,EventServiceImpl,mapEventsToMyEventsResponse,8,1,1,261,0,,
+matchify,com.matchify.service.implementation,EventServiceImpl,joinEvent,8,2,1,277,0,com.matchify.repository.EventAttendeesRepository,com.matchify.repository.EventAttendeesRepository
+matchify,com.matchify.service.implementation,EventServiceImpl,leaveEvent,4,1,1,287,0,com.matchify.repository.EventAttendeesRepository,com.matchify.repository.EventAttendeesRepository
+matchify,com.matchify.service.implementation,EventServiceImpl,findAllEventAttendees,4,1,1,293,0,com.matchify.repository.EventAttendeesRepository,com.matchify.repository.EventAttendeesRepository
+matchify,com.matchify.service.implementation,UserServiceImpl,connect,10,2,1,35,0,com.matchify.service.implementation.UserServiceImpl,com.matchify.service.implementation.UserServiceImpl; com.matchify.repository.UserRepository
+matchify,com.matchify.service.implementation,UserServiceImpl,buildConnectedUserResponse,3,1,1,55,0,,
+matchify,com.matchify.service.implementation,UserServiceImpl,disconnect,9,2,1,65,0,com.matchify.service.implementation.UserServiceImpl,com.matchify.service.implementation.UserServiceImpl; com.matchify.repository.UserRepository
+matchify,com.matchify.service.implementation,UserServiceImpl,findConnectedUsers,4,1,0,84,0,com.matchify.repository.UserRepository,com.matchify.repository.UserRepository
+matchify,com.matchify.service.implementation,UserServiceImpl,fetchLoggedInUserDetails,7,1,0,94,0,com.matchify.repository.EventAttendeesRepository,com.matchify.repository.EventAttendeesRepository; com.matchify.service.implementation.UserServiceImpl; com.matchify.service.AuthService; com.matchify.repository.UserRepository
+matchify,com.matchify.service.implementation,UserServiceImpl,mapToGetMyEventsResponses,8,1,1,109,0,,
+matchify,com.matchify.service.implementation,UserServiceImpl,createUserProfileResponse,11,1,2,127,0,,
+matchify,com.matchify.service.implementation,UserServiceImpl,getStatusForUsers,4,1,1,147,0,com.matchify.repository.UserRepository,com.matchify.repository.UserRepository
+matchify,com.matchify.service.implementation,UserServiceImpl,buildUserChatStatusResponse,3,1,1,158,0,,
+matchify,com.matchify.service.implementation,UserServiceImpl,getMessagedUsers,6,1,0,171,0,com.matchify.service.implementation.UserServiceImpl,com.matchify.service.implementation.UserServiceImpl; com.matchify.repository.ChatRoomRepository; com.matchify.repository.UserRepository; com.matchify.service.AuthService
+matchify,com.matchify.service.implementation,UserServiceImpl,mapChatroomsToUserIds,3,1,1,185,0,,
+matchify,com.matchify.service.implementation,ChatMessageServiceImpl,save,6,1,1,19,0,com.matchify.service.ChatRoomService,com.matchify.service.ChatRoomService
+matchify,com.matchify.service.implementation,ChatMessageServiceImpl,findChatMessages,4,1,2,37,0,com.matchify.service.ChatRoomService,com.matchify.service.ChatRoomService
+matchify,com.matchify.service.implementation,AuthServiceImpl,addUser,11,2,1,34,0,com.matchify.repository.UserRepository,com.matchify.repository.UserRepository; com.matchify.config.JwtProvider
+matchify,com.matchify.service.implementation,AuthServiceImpl,loginAndGetToken,18,2,1,55,0,com.matchify.config.JwtProvider,com.matchify.config.JwtProvider; com.matchify.repository.UserRepository
+matchify,com.matchify.service.implementation,AuthServiceImpl,getUserIdFromToken,10,2,0,83,0,com.matchify.service.implementation.AuthServiceImpl,com.matchify.service.implementation.AuthServiceImpl; com.matchify.repository.UserRepository
+matchify,com.matchify.service.implementation,AuthServiceImpl,getUserEmailFromToken,4,1,0,102,0,,
+matchify,com.matchify.service.implementation,UserDetailsServiceImpl,loadUserByUsername,4,1,1,20,0,com.matchify.repository.UserRepository,com.matchify.repository.UserRepository
+matchify,com.matchify.repository,UserMatchesRepository,existsByUser_UserIdAndMatchedUser_UserId,0,1,2,13,0,,
+matchify,com.matchify.repository,UserInterestRepository,findUserInterests,0,1,1,12,0,,
+matchify,com.matchify.repository,EventRepository,findEventsForUsersByCitySortedByDate,0,1,4,16,0,,
+matchify,com.matchify.repository,EventRepository,findEventsForCity,0,1,3,36,0,,
+matchify,com.matchify.repository,EventRepository,findAllByUser,0,1,1,54,0,,
+matchify,com.matchify.repository,EventAttendeesRepository,deleteAttendees,0,1,2,18,0,,
+matchify,com.matchify.repository,EventAttendeesRepository,findEventAttendeesList,0,1,1,23,0,,
+matchify,com.matchify.repository,EventAttendeesRepository,fetchJoinedEvents,0,1,1,26,0,,
+matchify,com.matchify.repository,EventAttendeesRepository,findEventAttendees,0,1,2,35,0,,
+matchify,com.matchify.repository,InterestRepository,findAllByGroupId,0,1,1,11,0,,
+matchify,com.matchify.repository,ChatRoomRepository,findBySenderIdAndRecipientId,0,1,2,12,0,,
+matchify,com.matchify.repository,ChatRoomRepository,findBySenderId,0,1,1,13,0,,
+matchify,com.matchify.repository,UserRepository,findByEmail,0,1,1,15,0,,
+matchify,com.matchify.repository,UserRepository,findByUserId,0,1,1,17,0,,
+matchify,com.matchify.repository,UserRepository,existsByEmail,0,1,1,19,0,,
+matchify,com.matchify.repository,UserRepository,findAllByStatus,0,1,1,21,0,,
+matchify,com.matchify.repository,UserRepository,findAllByUserIdIn,0,1,1,24,0,,
+matchify,com.matchify.repository,ChatMessageRepository,findByChatId,0,1,1,11,0,,
+matchify,com.matchify.config,AWSStorageConfig,s3Client,4,1,0,24,0,,
+matchify,com.matchify.config,ModelMapperConfig,modelMapper,3,1,0,10,0,,
+matchify,com.matchify.config,JwtAuthFilter,doFilterInternal,18,4,3,31,0,com.matchify.config.JwtProvider,com.matchify.config.JwtProvider; com.matchify.service.implementation.UserDetailsServiceImpl
+matchify,com.matchify.config,GeocodingConfig,geoApiContext,3,1,0,15,0,,
+matchify,com.matchify.config,WebSocketConfig,configureMessageBroker,5,1,1,24,0,,
+matchify,com.matchify.config,WebSocketConfig,registerStompEndpoints,3,1,1,36,0,,
+matchify,com.matchify.config,WebSocketConfig,configureMessageConverters,9,1,1,49,0,,
+matchify,com.matchify.config,JwtProvider,extractUsername,3,1,1,25,0,,
+matchify,com.matchify.config,JwtProvider,extractExpiration,3,1,1,29,0,,
+matchify,com.matchify.config,JwtProvider,extractClaim,4,1,2,33,0,com.matchify.config.JwtProvider,com.matchify.config.JwtProvider
+matchify,com.matchify.config,JwtProvider,extractAllClaims,3,1,1,38,0,com.matchify.config.JwtProvider,com.matchify.config.JwtProvider
+matchify,com.matchify.config,JwtProvider,isTokenExpired,3,1,1,47,0,com.matchify.config.JwtProvider,com.matchify.config.JwtProvider
+matchify,com.matchify.config,JwtProvider,validateToken,4,1,2,51,0,com.matchify.config.JwtProvider,com.matchify.config.JwtProvider
+matchify,com.matchify.config,JwtProvider,generateToken,4,1,1,57,0,com.matchify.config.JwtProvider,com.matchify.config.JwtProvider
+matchify,com.matchify.config,JwtProvider,createToken,3,1,2,62,0,com.matchify.config.JwtProvider,com.matchify.config.JwtProvider
+matchify,com.matchify.config,JwtProvider,getSignKey,4,1,0,71,0,,
+matchify,com.matchify.config,SecurityConfiguration,userDetailsService,3,1,0,26,0,,
+matchify,com.matchify.config,SecurityConfiguration,securityFilterChain,4,1,1,31,0,com.matchify.config.SecurityConfiguration,com.matchify.config.SecurityConfiguration
+matchify,com.matchify.config,SecurityConfiguration,passwordEncoder,3,1,0,56,0,,
+matchify,com.matchify.config,SecurityConfiguration,authenticationProvider,6,1,0,60,0,com.matchify.config.SecurityConfiguration,com.matchify.config.SecurityConfiguration
+matchify,com.matchify.config,SecurityConfiguration,authenticationManager,3,1,1,67,0,,
+matchify,com.matchify,MatchifyApplication,MatchifyApplication,3,1,1,21,0,,
+matchify,com.matchify,MatchifyApplication,main,3,1,1,25,0,,
+matchify,com.matchify,MatchifyApplication,run,3,1,1,29,0,com.matchify.MatchifyApplication,com.matchify.MatchifyApplication
+matchify,com.matchify,MatchifyApplication,executeSqlScript,6,1,1,34,0,,
+matchify,com.matchify,MatchifyApplication,corsConfigurer,8,1,0,41,0,,
+matchify,com.matchify,MatchifyApplication,addCorsMappings,3,1,1,44,0,,
+matchify,com.matchify.service,ChatRoomService,getChatRoomId,0,1,3,9,0,,
+matchify,com.matchify.service,ChatRoomService,createChatId,0,1,2,10,0,,
+matchify,com.matchify.service,UserService,connect,0,1,1,11,0,,
+matchify,com.matchify.service,UserService,disconnect,0,1,1,12,0,,
+matchify,com.matchify.service,UserService,findConnectedUsers,0,1,0,13,0,,
+matchify,com.matchify.service,UserService,fetchLoggedInUserDetails,0,1,0,14,0,,
+matchify,com.matchify.service,UserService,getStatusForUsers,0,1,1,17,0,,
+matchify,com.matchify.service,UserService,getMessagedUsers,0,1,0,18,0,,
+matchify,com.matchify.service,MatchService,findMatches,0,1,0,10,0,,
+matchify,com.matchify.service,AuthService,addUser,0,1,1,14,0,,
+matchify,com.matchify.service,AuthService,loginAndGetToken,0,1,1,16,0,,
+matchify,com.matchify.service,AuthService,getUserIdFromToken,0,1,0,18,0,,
+matchify,com.matchify.service,ChatMessageService,save,0,1,1,8,0,,
+matchify,com.matchify.service,ChatMessageService,findChatMessages,0,1,2,10,0,,
+matchify,com.matchify.service,EventService,storeEvent,0,1,3,20,0,,
+matchify,com.matchify.service,EventService,createEvent,0,1,2,22,0,,
+matchify,com.matchify.service,EventService,uploadFile,0,1,2,24,0,,
+matchify,com.matchify.service,EventService,getCoordinates,0,1,1,26,0,,
+matchify,com.matchify.service,EventService,getMatchedEvents,0,1,1,28,0,,
+matchify,com.matchify.service,EventService,getMyEvents,0,1,0,36,0,,
+matchify,com.matchify.service,EventService,joinEvent,0,1,1,42,0,,
+matchify,com.matchify.service,EventService,leaveEvent,0,1,1,44,0,,
+matchify,com.matchify.service,EventService,findAllEventAttendees,0,1,1,46,0,,
+matchify,com.matchify.service,InterestService,insertInterest,0,1,1,12,0,,
+matchify,com.matchify.service,InterestService,fetchInterest,0,1,0,13,0,,
+matchify,com.matchify.exception,EmailAlreadyInUseException,EmailAlreadyInUseException,3,1,1,4,0,,
+matchify,com.matchify.exception,EventNotFoundException,EventNotFoundException,3,1,1,8,0,,
+matchify,com.matchify.exception,ImageTypeNotValidException,ImageTypeNotValidException,3,1,1,8,0,,
+matchify,com.matchify.exception,UserNotFoundException,UserNotFoundException,3,1,1,8,0,,
+matchify,com.matchify.exception,WrongCredentialsException,WrongCredentialsException,3,1,1,7,0,,
+matchify,com.matchify.exception,APINotAvailableException,APINotAvailableException,3,1,1,5,0,,
+matchify,com.matchify.exception,GlobalExceptionHandler,handleGlobalException,6,1,1,15,0,,
+matchify,com.matchify.exception,GlobalExceptionHandler,handleValidationExceptions,9,1,1,22,0,,
+matchify,com.matchify.exception,ImageUploadException,ImageUploadException,3,1,1,8,0,,
+matchify,com.matchify.exception,InvalidUserArgumentsException,InvalidUserArgumentsException,3,1,1,8,0,,

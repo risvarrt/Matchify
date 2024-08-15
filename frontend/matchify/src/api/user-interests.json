@@ -1,0 +1,121 @@
+[
+  {
+    "id": 1,
+    "main": "Sports",
+    "sub": [
+      { "id": 101, "name": "Badminton" },
+      { "id": 102, "name": "Basketball" },
+      { "id": 103, "name": "Cricket" },
+      { "id": 104, "name": "Swimming" },
+      { "id": 105, "name": "Ice skating" },
+      { "id": 106, "name": "Soccer" },
+      { "id": 107, "name": "Tennis" },
+      { "id": 108, "name": "Gym" }
+    ]
+  },
+  {
+    "id": 2,
+    "main": "Academics",
+    "sub": [
+      { "id": 201, "name": "Biology" },
+      { "id": 202, "name": "Computer Science" },
+      { "id": 203, "name": "Chemistry" },
+      { "id": 204, "name": "History" },
+      { "id": 205, "name": "Literature" },
+      { "id": 206, "name": "Physics" },
+      { "id": 207, "name": "Political Science" }
+    ]
+  },
+  {
+    "id": 3,
+    "main": "Languages",
+    "sub": [
+      { "id": 301, "name": "English" },
+      { "id": 302, "name": "French" },
+      { "id": 303, "name": "Spanish" },
+      { "id": 304, "name": "German" },
+      { "id": 305, "name": "Chinese" },
+      { "id": 306, "name": "Japanese" },
+      { "id": 307, "name": "Korean" },
+      { "id": 308, "name": "Italian" },
+      { "id": 309, "name": "Hindi" }
+    ]
+  },
+  {
+    "id": 4,
+    "main": "Food",
+    "sub": [
+      { "id": 401, "name": "Arabic" },
+      { "id": 402, "name": "Indian" },
+      { "id": 403, "name": "Mexican" },
+      { "id": 404, "name": "Chinese" },
+      { "id": 405, "name": "Thai" },
+      { "id": 406, "name": "Italian" },
+      { "id": 407, "name": "Korean" }
+    ]
+  },
+  {
+    "id": 5,
+    "main": "Movies",
+    "sub": [
+      { "id": 501, "name": "Action" },
+      { "id": 502, "name": "Drama" },
+      { "id": 503, "name": "Horror" },
+      { "id": 504, "name": "Comedy" },
+      { "id": 505, "name": "Suspense" },
+      { "id": 506, "name": "Thriller" },
+      { "id": 507, "name": "Romantic" },
+      { "id": 508, "name": "Musicals" }
+    ]
+  },
+  {
+    "id": 6,
+    "main": "Music",
+    "sub": [
+      { "id": 601, "name": "Classical" },
+      { "id": 602, "name": "Pop" },
+      { "id": 603, "name": "Hip hop" },
+      { "id": 604, "name": "Country" },
+      { "id": 605, "name": "Rock" },
+      { "id": 606, "name": "Jazz" }
+    ]
+  },
+  {
+    "id": 7,
+    "main": "Art",
+    "sub": [
+      { "id": 701, "name": "Sculpting" },
+      { "id": 702, "name": "Drawing" },
+      { "id": 703, "name": "Painting" },
+      { "id": 704, "name": "Knitting" },
+      { "id": 705, "name": "Visiting Museums" },
+      { "id": 706, "name": "Photography" }
+    ]
+  },
+  {
+    "id": 8,
+    "main": "Reading",
+    "sub": [
+      { "id": 801, "name": "Book clubs" },
+      { "id": 802, "name": "literature discussions" },
+      { "id": 803, "name": "science fiction" },
+      { "id": 804, "name": "fantasy" },
+      { "id": 805, "name": "horror" },
+      { "id": 806, "name": "mystery" }
+    ]
+  },
+  {
+    "id": 9,
+    "main": "Others",
+    "sub": [
+      { "id": 901, "name": "Technology" },
+      { "id": 902, "name": "Space" },
+      { "id": 903, "name": "Cars" },
+      { "id": 904, "name": "Modelling" },
+      { "id": 905, "name": "Dancing" },
+      { "id": 906, "name": "Travelling" },
+      { "id": 907, "name": "Cooking" },
+      { "id": 908, "name": "Fishing" }
+    ]
+  }
+]
